@@ -5,12 +5,22 @@
         "source": "github",
         "repo": "affaan-m/ECC"
       }
+    },
+    "claude-video": {
+      "source": {
+        "source": "github",
+        "repo": "bradautomates/claude-video"
+      }
     }
   },
   "enabledPlugins": {
-    "ecc@ecc": true
+    "ecc@ecc": true,
+    "watch@claude-video": true
   },
   "env": {
-    "ECC_HOOK_PROFILE": "standard"
+    "ECC_HOOK_PROFILE": "standard",
+    "WATCH_ENGINE": "gemini",
+    "WATCH_DETAIL": "balanced",
+    "WATCH_WHISPER_BACKEND": "none"
   }
 }
